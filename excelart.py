@@ -68,7 +68,7 @@ def gif_to_img(file, output_folder, step):
     # Save all frames as a image
     for frame in range(0, imageObject.n_frames, step):
         imageObject.seek(frame)
-        imageObject.convert('RGB').save(output_folder+'//'+os.path.splitext(file)[0]+str(frame)+'.jpg')
+        imageObject.convert('RGB').save(output_folder+'//'+os.path.splitext(file)[0]+str('{:04}'.format(frame))+'.jpg')
         
 # Save each frame on a excel's sheet
 def gif_to_excel(images, output, percentage, zoom):
