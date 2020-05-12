@@ -49,6 +49,10 @@ Loop
 End Sub
 ```
 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/luiseduardobr1/ExcelArt/blob/master/nazare.gif?raw=true">
+</p>
+
 ## Limitation
 On large images, excel's */xl/styles.xml part (Styles)* can be corrupted. I think this limitation is relative to the number of different colours on the image. For more info, look at [Excel specifications](https://support.office.com/en-ie/article/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3).
 
